@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-19T22:04:34.048Z",
+        "line": 14,
+        "name": "Crear un escenario Outline de prueba",
+        "description": "",
+        "id": "esta-es-la-prueba-de-implementa-un-escenario-outline;crear-un-escenario-outline-de-prueba;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "un navegador abierto en Google",
+            "match": {
+              "location": "steps.prueba.unNavegadorAbiertoEnGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario busque en la caja juegos switch opciones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "juegos switch",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.prueba.elUsuarioBusqueEnLaCaja(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario presione buscar",
+            "match": {
+              "location": "steps.prueba.elUsuarioPresioneBuscar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "se mostrara el resultado de la busqueda en la pantalla",
+            "match": {
+              "location": "steps.prueba.seMostraraElResultadoDeLaBusquedaEnLaPantalla()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-19T22:04:34.194Z",
+        "line": 15,
+        "name": "Crear un escenario Outline de prueba",
+        "description": "",
+        "id": "esta-es-la-prueba-de-implementa-un-escenario-outline;crear-un-escenario-outline-de-prueba;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "un navegador abierto en Google",
+            "match": {
+              "location": "steps.prueba.unNavegadorAbiertoEnGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario busque en la caja juegos ps4 opciones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "juegos ps4",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.prueba.elUsuarioBusqueEnLaCaja(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario presione buscar",
+            "match": {
+              "location": "steps.prueba.elUsuarioPresioneBuscar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "se mostrara el resultado de la busqueda en la pantalla",
+            "match": {
+              "location": "steps.prueba.seMostraraElResultadoDeLaBusquedaEnLaPantalla()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-19T22:04:34.205Z",
+        "line": 16,
+        "name": "Crear un escenario Outline de prueba",
+        "description": "",
+        "id": "esta-es-la-prueba-de-implementa-un-escenario-outline;crear-un-escenario-outline-de-prueba;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "un navegador abierto en Google",
+            "match": {
+              "location": "steps.prueba.unNavegadorAbiertoEnGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario busque en la caja juegos xbox opciones",
+            "match": {
+              "arguments": [
+                {
+                  "val": "juegos xbox",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.prueba.elUsuarioBusqueEnLaCaja(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el usuario presione buscar",
+            "match": {
+              "location": "steps.prueba.elUsuarioPresioneBuscar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "se mostrara el resultado de la busqueda en la pantalla",
+            "match": {
+              "location": "steps.prueba.seMostraraElResultadoDeLaBusquedaEnLaPantalla()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Esta es la prueba de implementa un escenario Outline",
+    "description": "  de una aplicacion WEB, con un patron de diseno Page Object\n  Model con las depencias correctas que funcione aun la\n  generacion de reportes.",
+    "id": "esta-es-la-prueba-de-implementa-un-escenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ScenarioOutline.feature",
+    "tags": []
+  }
+]
